@@ -32,6 +32,8 @@ var request_options = {
   } // headers
 } // request_options
 
+console.log(BIRD_KEY);
+
 getBirds( function(bird_results) {
   console.log(JSON.stringify(bird_results))
 });
