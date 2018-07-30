@@ -1,0 +1,32 @@
+{
+  "name": "bird-getvehicles-service-node",
+  "version": "1.0.0",
+  "description": "Bird scooter location service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk53202/bird-getvehicles-service-node.git"
+  },
+  "keywords": [
+    "bird",
+    "scooter",
+    "api"
+  ],
+  "author": "Matt Koster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk53202/bird-getvehicles-service-node/issues"
+  },
+  "homepage": "https://github.com/mk53202/bird-getvehicles-service-node#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-generator": "^4.16.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
