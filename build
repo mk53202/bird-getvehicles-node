@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -f ./.env ]; then
+   sudo docker build -t alpine/bird-getvehicles-service-node .
+else
+   echo Please copy bird.key_example with API key to bird.key, exiting build. Sad face.
+fi

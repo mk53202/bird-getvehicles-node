@@ -17,10 +17,10 @@ COPY . /bird
 WORKDIR /bird
 
 # set port
-ENV PORT 7300
+ENV PORT 7301
 
 # expose the port to outside
-EXPOSE  7300
+EXPOSE  7301
 
 # start command as per package.json
 CMD ["npm", "start"]
