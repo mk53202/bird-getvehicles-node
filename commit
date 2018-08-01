@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker commit my-bird-getvehicles mk53202/ALPINE-bird-getvehicles-service-node:latest
+docker push mk53202/ALPINE-bird-getvehicles-service-node:latest
