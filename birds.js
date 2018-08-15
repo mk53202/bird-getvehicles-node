@@ -1,3 +1,8 @@
+// birds.js
+//
+// stub code to run bird lookups outside of node express
+//
+
 // Libraries
 const request = require('request-promise')
 const config = require('dotenv').config({path: './bird.key'}); // For API key
