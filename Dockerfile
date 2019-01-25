@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.8
 
 # File Author / Maintainer
 LABEL authors="Matt Koster <mattkoster@gmail.com>"
